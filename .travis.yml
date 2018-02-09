@@ -1,13 +1,17 @@
 language:
-  - python
-
+- python
 python:
-  - "3.6"
-  - "3.5"
-  - "2.7"
-
+- '3.6'
+- '3.5'
+- '2.7'
 install:
-  - pip install -r requirements.txt
-
+- pip install -r requirements.txt
 script:
-  - nosetests
+- nosetests
+deploy:
+  provider: heroku
+  api_key:
+    secure: Gwp+GsLcOuHSHGNY1O3tnVvmuz/9v0rP9g4iQ9xkPWw/ucQLlw8lnknVDh+Ud3Q5wRrykFKrf3qhq+x0oTPQXlwlnme2iPEft7J4hAlL6BGC0xCCGHCj3xPHoOtLEVzWKddo9mUUoxs4HmxxRR/zq/tQ5xmnXUNPJsfgsnND/2TA0br1sGtr0jVKJaXz1TFYLL6WnHhGpCXvbvV89C65kG8aX85MTznCu/PY8YrsuyDmxE7BwL2QgWQMok4dHYOi6StBwMpEO9qAqB4mc1R2Z7vXOjNpUdezSP3sChUx4Ito0/C2T5MituVZmgukTw3ZOzMX4AV21nfvK9b4TkeyISvCuaofaks27Uz/03c4pez3DrzqIxpAKigPy4s9HiZpyQYyvZhljUGemv63a5J0AxviTvQpSgxNWwFz6F2ja9r+ZDlMD6BHpLMZskwx+I3eKGqzLBGZsW4V43g/3BEeebluHqehYwliClYDjDDGtdSmfqlCAKCMfdixMVVv3hVSaeXR+OurYrCQ+ue/dcQJRGdRIOVWQrKdA/VI/ymnjV/zwu5m/egbSqJ2EsAQsBm0qHlIuz7Hw6pxtzafn0CWPW952SnPxawbhm08cJ8y7qEfNYBwq8mj9NXuhp5O2lqwjch4UdsNwBam0el3k0XTTSeoKs4yai+i5mTlAGfXl4I=
+  app: FlaskTaskManager-10
+  on:
+    repo: SandipanGhosh/FlaskTaskManager-10
