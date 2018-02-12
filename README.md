@@ -5,6 +5,8 @@ Integrated TravisCI.
 [![Build Status](https://travis-ci.org/SandipanGhosh/FlaskTaskManager-10.svg?branch=master)](https://travis-ci.org/SandipanGhosh/FlaskTaskManager-10)
 
 
+Deployed to - https://flasktaskmanager.herokuapp.com/
+
 Prior release logs:
 
 FlaskTaskManager- Release 1
