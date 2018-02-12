@@ -12,7 +12,7 @@ deploy:
   provider: heroku
   api_key:
     secure: oHJYdW6gM5RNEG57LmrlV9iWWwtN71TuXonOtHif1deGGwDsijWegK+97cPFcBjF799gMihC60JsoQr4GuAlYiFmOqTHdLyuWRMshuc2/KCE2vozV1hJfesviKDinUJLkiGNhlwNMjHSheroRdte0AiIutTjpGIXDKdSNj753sHGAJ5XhfsM4aYBWWCx3xwXo6BQsIswBBSHasR8UWP8NpKXiBT1iFbsNRNPKdVTdjFUn7916Wk/TGZ0oB1KLcADir1Lo/lBPk9D1wAIM6EAtd9l0fb9V8lNUx8+wfMzJTpDa4bAD52khTw933Vqa2M7ouK3g78eM8OC2OOogWf7t0jXkVmOar7LN62XzH5Ip8zIK4BbCmRUgJjSZPw0r7CAwZ4tmSnjqz/jPl/FsVUGgEmyCG0H51hRf0HDenCui2zdNCQbJX+DIrJJHI1aZNgLLSM7vjW+U5Pd6CJ7B+pGnffCRELF/y89pota0KCHB9hiXjDW7ncoXEPOWRyn6qnahkjtYihtbP1TE6qgXzTye50kG+hPI8L5adzBTv9xAmYoNsidRNu5ZVwj43iajjlmw/nq8vlb0Gwa9wLJeBmHZ/6+T89Isp8XOXoRmeF8lGFSabptuzDBdA+mCSuw9MTHE9mp9sx8eCwEiGZtpcKADfqTZf+KMYVCI0T/Kw7f1Io=
-  app: 'yes'
+  app: 'FlaskTaskManager-10'
   on:
     branch: master
     python: '3.6'
